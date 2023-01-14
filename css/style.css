@@ -12,7 +12,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;;
+    font-family: 'Poppins', sans-serif;
 }
 html{
     font-size: 62.5%;
@@ -47,13 +47,67 @@ ul{
 .nevber ul{
     display: flex;
 }
-.nevber ul li{
-    margin-left: 1rem;
-}
+
 .nevber ul li a{
     text-transform: uppercase;
     color: var(--nav-color);
     padding: 1rem 1.5rem;
     border-radius: 1rem;
     font-weight: 800;
+}
+/* =-=-=-=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=
+                    banner Area
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4rem;
+    margin-top: 8rem;
+    align-items: center;
+    
+}
+.banner-text{
+    border: 1px solid var(--button-color);
+
+}
+.banner-title{
+    font-weight: 700;
+    width: 100%;
+    font-size: 5.2rem;
+    line-height: 7rem;
+    margin-bottom: 1.6rem;
+    color: var(--nav-color);
+
+}
+.banner-text p{
+    color: var(--nav-color-);
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    margin-bottom: 1.6rem;
+}
+.banner-text button{
+    color: #fff;
+    background-color: var(--button-color);
+    padding: 1rem 1.5rem;
+    border: 0;
+    border-radius: 2rem;
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 2.4rem;
+}
+.banner-text i{
+    padding-left: 1rem;
+}
+.banner-img{
+    background-image: url('./../images/Circle\ design.svg');
+    background-repeat: no-repeat; 
+    background-position: center;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--button-color);
+
 }
